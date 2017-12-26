@@ -15,7 +15,7 @@ public class Application {
 		@SuppressWarnings("resource")
 		Scanner reader = new Scanner(System.in); 
 		setApi(new Api());
-		new SetTokenCommand().write("1d8f3c04de53e58a340bac9d93fa9a93f476cab2f8279f6b738451c6b9b0d401192144b01c040882f6abe").init();
+		
 		while(true) {
 			System.out.print("> ");
 			String n = reader.nextLine();
